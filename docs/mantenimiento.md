@@ -10,6 +10,21 @@ Si se cambia puntapie-inicial hay que avanzar la base en puntapie-ejemplo-notici
 Clonar, actualizar e instalar
 
 ```sh
+git clone https://github.com/codenautas/puntapie-inicial
+cd puntapie-inicial
+ncu -u         # hay que tener instalado en npm-update-check
+npm install
+```
+
+Si hay errores de imcompatibilidad de versione o errores de tipo hay que arreglarlos a mano e ir ejecutando
+```sh
+npm install      # o si el install no falló:
+npm run prepare
+```
+hasta que no haya errores
+
+Hacer lo mismo con:
+```sh
 git clone https://github.com/codenautas/puntapie-ejemplo-noticias
 cd puntapie-ejemplo-noticias
 ```
@@ -22,13 +37,6 @@ Luego
 ncu -u         # hay que tener instalado en npm-update-check
 npm install
 ```
-
-Si hay errores de imcompatibilidad de versione o errores de tipo hay que arreglarlos a mano e ir ejecutando
-```sh
-npm install      # o si el install no falló:
-npm run prepare
-```
-hasta que no haya errores
 
 ### base de datos
 

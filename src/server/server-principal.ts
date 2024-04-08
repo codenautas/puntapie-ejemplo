@@ -1,5 +1,5 @@
 "use strict";
 
-import {AppPuntapieInicial} from "./app-principal";
+import {AppPuntapieEjemplo} from "./app-principal";
 
-new AppPuntapieInicial().start();
+new AppPuntapieEjemplo().start();

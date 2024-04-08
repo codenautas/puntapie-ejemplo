@@ -1,8 +1,6 @@
-# puntapie-inicial
+# puntapie-ejemplo
 
-Puntapié inicial para hacer una aplicación en backend-plus desde cero. 
-
-*Es preferible seguir las instrucciones de puntapie-ejemplo*
+Ejemplo de puntapié inicial para hacer una aplicación en backend-plus desde cero.
 
 # iniciar una aplicación nueva
 
@@ -46,7 +44,7 @@ Los elementos para personalizarla son:
    3. El nombre, versión y título de la aplicación en `package.json` y el `README.MD`
    4. La gráfica en las carpetas `img` y `css` dentro de `src/unlogged` y `src/client` 
    5. Los usuarios inicials de prueba en `install/usuarios.tab`
-   6. Partiendo de puntapie-ejemplo hay que borrar las tablas de ejemplo (archivos y objetos cuyo nombre contiene la palabra `ejemplo`).
+   6. Hay que borrar las tablas de ejemplo (archivos y objetos cuyo nombre contiene la palabra `ejemplo`).
    Agregar las tablas necesarias del sistema en `src` prefijándolas con `table-`. 
    7. Hay que corregir el menú
    8. Si no habrá página deslogueado:

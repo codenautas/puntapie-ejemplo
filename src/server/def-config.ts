@@ -22,6 +22,7 @@ login:
     loginForm:
       formTitle: entrada
       formImg: unlogged/tables-lock.png
+    noLoggedUrlPath: /pub
 client-setup:
   menu: true
   lang: es
