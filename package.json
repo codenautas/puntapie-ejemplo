@@ -1,6 +1,6 @@
 {
   "name": "puntapie-ejemplo",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "license": "MIT",
   "description": "Puntapié inicial para hacer una aplicación en backend-plus desde cero. Ejemplo",
@@ -11,8 +11,9 @@
     "install"
   ],
   "dependencies": {
+    "backend-plus": "^2.0.0-rc.16",
     "@mui/material": "^5.15.15",
-    "@mui/icons-material": "^5.15.15",
+    "@mui/icons-material": "^5.15.15",    
     "@mui/lab": "^5.0.0-alpha.170",
     "backend-plus": "^2.0.0-rc.12",
     "pg-triggers": "^0.3.2",
@@ -20,16 +21,17 @@
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
     "redux": "^5.0.1",
-    "redux-typed-reducer": "^0.1.1"
+    "redux-typed-reducer": "^0.1.1",
+    "pg-triggers": "^0.3.3"
   },
   "devDependencies": {
+    "typescript": "^5.4.5",
     "@types/node": "^20.12.5",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.24",
     "@types/react-redux": "^7.1.33",
     "source-map-loader": "^5.0.0",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.4.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "types.d.ts": "^0.6.21",
